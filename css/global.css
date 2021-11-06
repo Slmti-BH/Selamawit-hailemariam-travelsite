@@ -14,12 +14,16 @@ body{
     display: flex;
     flex-direction: row;
     padding: 0.625rem;
-    margin-left: 3.75rem;
-    margin-right: 3.75rem;
     background-color: #FFFFFF;
     align-items: center;
 }
+.header__logo{
+    margin-left: 3.75rem;  
+}
+.header__nav{
+    margin-right: 3.75rem;
 
+}
 .header__logo-text{
     color: #335576;
     font-weight: bolder;
