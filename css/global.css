@@ -87,6 +87,7 @@ body{
 }
 .footer__subtitle{
     color: #DB7A4E;
+    font-size: 0.8rem;
     font-weight: normal;
     margin-top: 0;
 }
