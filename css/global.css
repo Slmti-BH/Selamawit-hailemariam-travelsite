@@ -73,8 +73,14 @@ body{
 .footer{
     display: flex;
     background-color: #FEFAF5;
-    justify-content: space-around;
+    justify-content: center;
     color: #335576;
+}
+.footer__container{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin-left: 3.75rem;
 }
 .footer__title{
     font-size: 1.25rem;
@@ -85,7 +91,10 @@ body{
     margin-top: 0;
 }
 .footer__hours{
-    width: 35%;
+    width: 50%;
+}
+.footer__social{
+    width: 15%;
 }
 .footer__hours-container{
     display: flex;
@@ -93,11 +102,10 @@ body{
 }
 .footer__social-container{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
    
 }
 .footer__social-icon-image{
-    height: 30px;
-    margin-top: 20px;
-    margin-left: 20px;
+    height: 1.875rem;
+    margin-top: 1.25rem;   
 }

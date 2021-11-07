@@ -1,12 +1,11 @@
+/* hero */
 .hero{
   padding-top: 95px; 
   display: flex;
   height: 55vh;
   padding-left: 60px;
-  background-color: #FEFAF5;
-  
+  background-color: #FEFAF5; 
 }
-
 .hero__info{
     width: 55%;
     text-align: left;
@@ -35,4 +34,68 @@
     width: 150px;
     border-radius: 20px;
     border:none;
+}
+
+
+
+/* main */
+.destinations__title{
+    font-size: 1.563rem;
+    color: #335576;
+    font-weight: bold;
+    padding-left: 3.75rem;
+    padding-top: 1.25rem;
+}
+.destinations__link{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding-right: 1.25rem;
+}
+.destinations__hawaii{
+    display: flex;
+    width: 16.875rem;
+    height: 25rem;
+    padding-right: 0.625rem;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-image: url("../assets/Images/hawaii.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    border: 1px solid rgb(0,0, 0,0.2);
+    box-shadow: 0 4px 4px rgb(0 0 0 / 0.2);  
+}
+.destinations__iceland{
+    display: flex;
+    width: 16.875rem;
+    height: 25rem;
+    padding-right: 0.625rem;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-image: url("../assets/Images/iceland.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    border: 1px solid rgb(0,0, 0,0.2);
+    box-shadow: 0 4px 4px rgb(0,0, 0,0.2);
+}
+.destinations__greece{
+    display: flex;
+    width: 16.875rem;
+    height: 25rem;
+    padding-right: 0.625rem;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-image: url("../assets/Images/greece.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    border: 1px solid rgb(0,0, 0,0.2);
+    box-shadow: 0 4px 4px rgb(0,0, 0,0.2);
+}
+.destinations__container{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 3.125rem;  
 }
