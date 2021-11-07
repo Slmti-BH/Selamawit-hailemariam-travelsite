@@ -1,0 +1,48 @@
+/* main */
+.activities{
+    padding-top: 5.938rem; 
+    background-image: url("../assets/Images/greece.jpg");
+    height: 95vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.activities__title{
+    color: white;
+    font-size: 3.125rem;
+    padding-left: 3.75rem;
+}
+.activities__days-container{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    justify-content:space-between;
+    padding: 3.125rem;  
+}
+.activities__days{
+    width: 30%;
+    height: 25rem;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(0,0, 0,0.2); 
+}
+.activities__sub-title{
+    border-bottom: 2px solid black;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    font-size: 1.25rem; 
+}
+.activities-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0.625rem 0.625rem 1.875rem;  
+}
+.activities__item{
+    padding: 1.25rem;
+    margin-bottom: 0.625rem;
+    background-color: #FEFAF5;
+}
