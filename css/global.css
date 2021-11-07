@@ -11,11 +11,14 @@ body{
 
 /* header */
 .header{
+    width: 100%;
     display: flex;
     flex-direction: row;
     padding: 0.625rem;
     background-color: #FFFFFF;
     align-items: center;
+    position: fixed;
+    top: 0;
 }
 .header__logo{
     margin-left: 3.75rem;  
@@ -64,3 +67,34 @@ body{
     padding: 0.625rem;
 }
 
+
+
+/* footer */
+.footer{
+    display: flex;
+    background-color: #FEFAF5;
+    justify-content: space-around;
+    color: #335576;
+}
+.footer__title{
+    font-size: 1.25rem;
+}
+.footer__subtitle{
+    color: #DB7A4E;
+    font-weight: normal;
+    margin-top: 0;
+}
+.footer__hours{
+    width: 35%;
+}
+.footer__hours-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__social-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__social-icon-image{
+    width: 33.33%;  
+}
