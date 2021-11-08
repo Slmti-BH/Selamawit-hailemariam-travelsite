@@ -46,3 +46,10 @@
     margin-bottom: 0.625rem;
     background-color: #FEFAF5;
 }
+
+/* responsive design for tablet */
+@media screen and (max-width: 768px){
+    .activities__days-container{
+        width: 100%;
+    }
+}

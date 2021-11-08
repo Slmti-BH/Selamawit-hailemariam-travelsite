@@ -41,10 +41,8 @@ body{
 }
 .header__nav-item{
     list-style: none;
-    font-size: 1.125rem;
-    
+    font-size: 1.125rem;  
 }
-
 .header__nav{
     margin-left: auto;  
 }
@@ -58,8 +56,7 @@ body{
     text-decoration: underline;
     text-decoration-color: #DB7A4E;
     text-decoration-thickness: 0.313rem;
-    text-underline-offset: 10px;
-    
+    text-underline-offset: 10px;  
 }
 .header__nav-link:hover{
     background-color: #335576;
@@ -87,7 +84,6 @@ body{
 }
 .footer__subtitle{
     color: #DB7A4E;
-    font-size: 0.8rem;
     font-weight: normal;
     margin-top: 0;
 }
@@ -97,6 +93,7 @@ body{
 .footer__social{
     width: 15%;
 }
+
 .footer__hours-container{
     display: flex;
     justify-content: space-between;
@@ -104,9 +101,34 @@ body{
 .footer__social-container{
     display: flex;
     justify-content:space-between;
-   
 }
 .footer__social-icon-image{
     height: 1.875rem;
     margin-top: 1.25rem;   
+}
+
+/* responsive design for tablet */
+@media screen and (max-width: 768px){
+    .footer__social{
+        width: 20%;
+    }
+    .footer__hours{
+        width: 60%;
+    }
+    .header__nav{
+        margin-left: 0.313rem;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1.25rem;
+        margin-left: 3.75rem;
+        width: 100%;
+    }
 }
